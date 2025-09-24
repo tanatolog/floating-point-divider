@@ -137,18 +137,16 @@ Relative error: 0.09%
 ![Функциональная схема операционного устройства](images/FS_OA.png)
 
 Содержательная граф-схема алгоритма деления / Division algorithm graph scheme
-![Граф-схема алгоритма деления](images/meaningful_scheme.png)
+![Граф-схема алгоритма деления](images/meaningful_scheme.jpg)
 
 Граф функционирования управляющего устройства / Functional scheme of control device
-![Граф функционирования управляющего устройства](images/graph_UA.png)
+![Граф функционирования управляющего устройства](images/graph_UA.jpg)
 
 Отмеченная граф-схема алгоритма деления / Marked division algorithm graph scheme
 ![Отмеченная граф-схема алгоритма деления](images/marked_scheme.jpg)
 
 Функциональная схема управляющего устройства  / Functional scheme of control device
-![Функциональная схема управляющего устройства](images/FS_UA.png)
-
-![Функциональная схема начальных установок](images/NU.png)
+![Функциональная схема управляющего устройства](images/FS_UA.jpg)
 
 Более подробное описание устройства и принципа его работы можно найти в расширенной документации (файл `documentation.pdf`). / A more detailed description of the device and its operating principle can be found in the extended documentation (`documentation.pdf`).
 
