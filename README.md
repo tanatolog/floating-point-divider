@@ -84,53 +84,53 @@ Viewing examples:
 - Altera Quartus II Version 9.1
 
 ## Output / Вывод
-1. ПРС при вычитании порядков / EGO when subtracting exponents
-Dividend: 0 0 1100 1111110000
-Divisor: 0 1 0110 1010010000
-Result: EGO / ПРС
+1. ПРС при вычитании порядков / EGO when subtracting exponents  
+Dividend: 0 0 1100 1111110000  
+Divisor: 0 1 0110 1010010000  
+Result: EGO / ПРС  
 
-2. ПРС при увеличении порядка после нормализации / EGO after normalization increment
-Dividend: 0 0 1100 1111110000
-Divisor: 0 1 0011 1000000000
-Result: EGO / ПРС
+2. ПРС при увеличении порядка после нормализации / EGO after normalization increment  
+Dividend: 0 0 1100 1111110000  
+Divisor: 0 1 0011 1000000000  
+Result: EGO / ПРС  
 
-3. временное ПМР (неустранимое) / temporary LLD (unremovable)
-Dividend: 1 1 0101 1000000000
-Divisor: 0 0 1011 1111110000
-Result: 0 0 0000 0000000000
+3. временное ПМР (неустранимое) / temporary LLD (unremovable)  
+Dividend: 1 1 0101 1000000000  
+Divisor: 0 0 1011 1111110000  
+Result: 0 0 0000 0000000000  
 
-4. истинная ПМР / true LLD
-Dividend: 0 1 0110 1111110000
-Divisor: 0 0 1100 1010010000
-Result: 0 0 0000 0000000000
+4. истинная ПМР / true LLD  
+Dividend: 0 1 0110 1111110000  
+Divisor: 0 0 1100 1010010000  
+Result: 0 0 0000 0000000000  
 
-5. временное ПМР (устранимое) / temporary LLD (removable)
-Dividend: 1 1 0101 1111110000
-Divisor: 0 0 1011 1000000000
-Result: 1 1 1111 11111101111 = -0.00003026
-Exact: -0.000030039
-Relative error: 0.7%
+5. временное ПМР (устранимое) / temporary LLD (removable)  
+Dividend: 1 1 0101 1111110000  
+Divisor: 0 0 1011 1000000000  
+Result: 1 1 1111 11111101111 = -0.00003026  
+Exact: -0.000030039  
+Relative error: 0.7%  
 
-6. пример без исключительных ситуаций 1 / example without exceptions 1
-Dividend: 1 0 0101 1000000000
-Divisor: 0 0 0101 1111110000
-Result: 1 0 0000 10000001111 = -0.50732422
-Exact: -0.505
-Relative error: 0.4%
+6. пример без исключительных ситуаций 1 / example without exceptions 1  
+Dividend: 1 0 0101 1000000000  
+Divisor: 0 0 0101 1111110000  
+Result: 1 0 0000 10000001111 = -0.50732422  
+Exact: -0.505  
+Relative error: 0.4%  
 
-7. пример без исключительных ситуаций 2 / example without exceptions 2
-Dividend: 0 0 0110 1101000000
-Divisor: 0 0 0110 1110000000
-Result: 0 0 0000 1110110101 = 0.92675781
-Exact: 0.92857
-Relative error: 0.1%
+7. пример без исключительных ситуаций 2 / example without exceptions 2  
+Dividend: 0 0 0110 1101000000  
+Divisor: 0 0 0110 1110000000  
+Result: 0 0 0000 1110110101 = 0.92675781  
+Exact: 0.92857  
+Relative error: 0.1%  
 
-8. пример без исключительных ситуаций 3 / example without exceptions 3
-Dividend: 0 0 0010 1111110000
-Divisor: 0 0 0011 1000000000
-Result: 0 0 0000 1111101111 = 0.98339844
-Exact: 0.98437
-Relative error: 0.09%
+8. пример без исключительных ситуаций 3 / example without exceptions 3  
+Dividend: 0 0 0010 1111110000  
+Divisor: 0 0 0011 1000000000  
+Result: 0 0 0000 1111101111 = 0.98339844  
+Exact: 0.98437  
+Relative error: 0.09%  
 
 ## Technical documentation / Техническая документация
 Функциональная схема операционного устройства / Functional scheme of operational device
