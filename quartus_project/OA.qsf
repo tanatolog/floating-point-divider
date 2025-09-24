@@ -1,0 +1,129 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2010 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+# Date created = 16:54:08  March 13, 2022
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		OA_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C55F484C6
+set_global_assignment -name TOP_LEVEL_ENTITY OA
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:54:08  MARCH 13, 2022"
+set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
+set_global_assignment -name TIMEQUEST_DO_CCPP_REMOVAL ON
+set_global_assignment -name SOURCE_FILE CT1.cmp
+set_global_assignment -name VHDL_FILE CT1.vhd
+set_global_assignment -name SOURCE_FILE CT2.cmp
+set_global_assignment -name SOURCE_FILE ct2pm.cmp
+set_global_assignment -name VHDL_FILE ct2pm.vhd
+set_global_assignment -name SOURCE_FILE ct3.cmp
+set_global_assignment -name VHDL_FILE ct3.vhd
+set_global_assignment -name SOURCE_FILE ct4.cmp
+set_global_assignment -name VHDL_FILE ct4.vhd
+set_global_assignment -name SOURCE_FILE ct4pm.cmp
+set_global_assignment -name VHDL_FILE ct4pm.vhd
+set_global_assignment -name SOURCE_FILE dc3.cmp
+set_global_assignment -name VHDL_FILE dc3.vhd
+set_global_assignment -name SOURCE_FILE dc4.cmp
+set_global_assignment -name VHDL_FILE dc4.vhd
+set_global_assignment -name SOURCE_FILE ilireset.cmp
+set_global_assignment -name VHDL_FILE ilireset.vhd
+set_global_assignment -name SOURCE_FILE invertor.cmp
+set_global_assignment -name VHDL_FILE invertor.vhd
+set_global_assignment -name SOURCE_FILE invertor5.cmp
+set_global_assignment -name SOURCE_FILE KC1.cmp
+set_global_assignment -name SOURCE_FILE KC2.cmp
+set_global_assignment -name SOURCE_FILE KC4.cmp
+set_global_assignment -name SOURCE_FILE KC6.cmp
+set_global_assignment -name VHDL_FILE KC6.vhd
+set_global_assignment -name SOURCE_FILE number_1.cmp
+set_global_assignment -name VERILOG_FILE number_1_inst.v
+set_global_assignment -name SOURCE_FILE oor5.cmp
+set_global_assignment -name VHDL_FILE oor5.vhd
+set_global_assignment -name SOURCE_FILE oor7.cmp
+set_global_assignment -name VHDL_FILE oor7.vhd
+set_global_assignment -name SOURCE_FILE reg.cmp
+set_global_assignment -name VHDL_FILE reg.vhd
+set_global_assignment -name SOURCE_FILE RG1.cmp
+set_global_assignment -name SOURCE_FILE RG2.cmp
+set_global_assignment -name SOURCE_FILE RG3.cmp
+set_global_assignment -name SOURCE_FILE RG4.cmp
+set_global_assignment -name SOURCE_FILE SM1.cmp
+set_global_assignment -name SOURCE_FILE SM2.cmp
+set_global_assignment -name BDF_FILE test2.bdf
+set_global_assignment -name VHDL_FILE test2.vhd
+set_global_assignment -name SOURCE_FILE test4.cmp
+set_global_assignment -name QIP_FILE RG1.qip
+set_global_assignment -name BDF_FILE OA.bdf
+set_global_assignment -name QIP_FILE KC1.qip
+set_global_assignment -name QIP_FILE RG2.qip
+set_global_assignment -name VERILOG_FILE UA.v
+set_global_assignment -name VECTOR_WAVEFORM_FILE OA.vwf
+set_global_assignment -name QIP_FILE SM1.qip
+set_global_assignment -name QIP_FILE KC2.qip
+set_global_assignment -name QIP_FILE RG3.qip
+set_global_assignment -name QIP_FILE RG4.qip
+set_global_assignment -name QIP_FILE KC4.qip
+set_global_assignment -name QIP_FILE invertor5.qip
+set_global_assignment -name QIP_FILE SM2.qip
+set_global_assignment -name QIP_FILE CT2.qip
+set_global_assignment -name VECTOR_TABLE_OUTPUT_FILE OA1.tbl
+set_global_assignment -name VECTOR_TABLE_OUTPUT_FILE OA.tbl
+set_global_assignment -name SOURCE_FILE OA.sim
+set_global_assignment -name VCD_FILE OA.vcd
+set_global_assignment -name ZIP_VECTOR_WAVEFORM_FILE OA.cvwf
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE OA.vwf
+set_global_assignment -name VECTOR_TABLE_OUTPUT_FILE "C:/Users/User/Desktop/example_without_exceptions_3.tbl"
+set_global_assignment -name VECTOR_TABLE_OUTPUT_FILE "C:/Users/User/Desktop/example_PRS.tbl"
+set_global_assignment -name VECTOR_TABLE_OUTPUT_FILE examples/example_PRS.tbl
+set_global_assignment -name VECTOR_TABLE_OUTPUT_FILE examples/example_true_PMR.tbl
+set_global_assignment -name VECTOR_TABLE_OUTPUT_FILE examples/example_surmountable_PMR.tbl
+set_global_assignment -name VECTOR_TABLE_OUTPUT_FILE examples/example_unremovable_PMR.tbl
+set_global_assignment -name VECTOR_TABLE_OUTPUT_FILE examples/example_without_exceptions_1.tbl
+set_global_assignment -name VECTOR_TABLE_OUTPUT_FILE "examples/example_PRS_after normalization.tbl"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VECTOR_TABLE_OUTPUT_FILE examples/example_without_exceptions_2.tbl
+set_global_assignment -name VECTOR_WAVEFORM_FILE ../examples/ODG.vwf

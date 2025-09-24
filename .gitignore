@@ -1,0 +1,44 @@
+# Quartus temporary and output files
+*.qws
+*.rpt
+*.summary
+*.smsg
+*.chg
+*.sld
+*.tcl
+
+# Compilation outputs
+db/
+incremental_db/
+
+# Cache and auto-generated
+*.bak
+*.ddb
+*.dpf
+*.jdi
+*.pin
+*.sip
+*.sof
+*.pof
+*.ekp
+*.sopcinfo
+*.cdf
+*.qip
+*.sdc
+
+# Waveform and simulation outputs
+*.vwf
+*.vcd
+*.vho
+*.vo
+*.vqm
+*.scf
+*.sdo
+*.fsf
+
+# Logs
+*.log
+*.err
+*.sta.rpt
+*.qmsg
+
